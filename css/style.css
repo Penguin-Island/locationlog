@@ -1,0 +1,80 @@
+span.material-icons-outlined {
+  font-family: 'Material Icons', serif;
+}
+
+.toolbar{
+  background-color: #8DB2A1;
+}
+
+.toolbar > .center{
+  color:#ffffff;
+}
+
+.page__background{
+  background-color: #FFFDF7;
+}
+
+#listArea{
+  background-color: #ffffff;
+}
+
+.list-header{
+   background-color: #ffffff;
+   height: 200%;
+}
+
+.page__content h1{
+  font-size: 1.2em;
+}
+
+.content{
+  margin-top: 10px;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+#mapcontainer{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+label{
+    color: #ffffff;
+    text-align: center; 
+    background-color: #E09789;
+    padding: 10px 0px 10px 0px;
+    display: block; 
+    margin: auto;
+    width: 60%;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.button{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 60%;
+  text-align: center;
+  background-color: #E09789;
+}
+
+#suspend{
+  background-color: #c0c0c0;
+}
+input[type="file"] {
+    display: none;
+}
+
+#preview > img{
+  padding: 10px;
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+:checked + .tabbar__button{
+  color: #8DB2A1;
+}
